@@ -1,9 +1,12 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { Foo } from "./Foo";
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Foo />
+      <p>I am an external paragraph.</p>
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
